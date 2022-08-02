@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1617FEDC2898C1F100559658 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FEDB2898C1F100559658 /* main.swift */; };
+		1617FEDE2898C21600559658 /* Contexto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FEDD2898C21600559658 /* Contexto.swift */; };
+		1617FEE02898C23200559658 /* DoutorHeroi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FEDF2898C23200559658 /* DoutorHeroi.swift */; };
+		1617FEE22898C24800559658 /* FilhoHeroi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FEE12898C24800559658 /* FilhoHeroi.swift */; };
+		1617FEE42898C25500559658 /* PaiHeroi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FEE32898C25500559658 /* PaiHeroi.swift */; };
+		1617FEE62898C26D00559658 /* Heroi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FEE52898C26D00559658 /* Heroi.swift */; };
+		1617FEE82898C27C00559658 /* IColher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FEE72898C27C00559658 /* IColher.swift */; };
+		1617FEEA2898C29600559658 /* IColherAmostra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FEE92898C29600559658 /* IColherAmostra.swift */; };
+		1617FEEC2898C2AC00559658 /* IColherNaoColher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FEEB2898C2AC00559658 /* IColherNaoColher.swift */; };
+		1617FEEE2898C2BC00559658 /* Seringa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FEED2898C2BC00559658 /* Seringa.swift */; };
+		1617FEF02898C2CD00559658 /* Virus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FEEF2898C2CD00559658 /* Virus.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1617FEC42898C1C300559658 /* RPGChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPGChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1617FEDB2898C1F100559658 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1617FEDD2898C21600559658 /* Contexto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contexto.swift; sourceTree = "<group>"; };
+		1617FEDF2898C23200559658 /* DoutorHeroi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoutorHeroi.swift; sourceTree = "<group>"; };
+		1617FEE12898C24800559658 /* FilhoHeroi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilhoHeroi.swift; sourceTree = "<group>"; };
+		1617FEE32898C25500559658 /* PaiHeroi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaiHeroi.swift; sourceTree = "<group>"; };
+		1617FEE52898C26D00559658 /* Heroi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroi.swift; sourceTree = "<group>"; };
+		1617FEE72898C27C00559658 /* IColher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IColher.swift; sourceTree = "<group>"; };
+		1617FEE92898C29600559658 /* IColherAmostra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IColherAmostra.swift; sourceTree = "<group>"; };
+		1617FEEB2898C2AC00559658 /* IColherNaoColher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IColherNaoColher.swift; sourceTree = "<group>"; };
+		1617FEED2898C2BC00559658 /* Seringa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seringa.swift; sourceTree = "<group>"; };
+		1617FEEF2898C2CD00559658 /* Virus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Virus.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1617FEC12898C1C300559658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1617FEBB2898C1C300559658 = {
+			isa = PBXGroup;
+			children = (
+				1617FEC62898C1C300559658 /* RPGChallenge */,
+				1617FEC52898C1C300559658 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1617FEC52898C1C300559658 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1617FEC42898C1C300559658 /* RPGChallenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1617FEC62898C1C300559658 /* RPGChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				1617FEDB2898C1F100559658 /* main.swift */,
+				1617FEDD2898C21600559658 /* Contexto.swift */,
+				1617FEF12898C75E00559658 /* Classes */,
+				1617FEF52898C93600559658 /* Structs */,
+				1617FEF22898C77F00559658 /* Protocolos */,
+			);
+			path = RPGChallenge;
+			sourceTree = "<group>";
+		};
+		1617FEF12898C75E00559658 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1617FEDF2898C23200559658 /* DoutorHeroi.swift */,
+				1617FEE12898C24800559658 /* FilhoHeroi.swift */,
+				1617FEE32898C25500559658 /* PaiHeroi.swift */,
+				1617FEE52898C26D00559658 /* Heroi.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1617FEF22898C77F00559658 /* Protocolos */ = {
+			isa = PBXGroup;
+			children = (
+				1617FEE72898C27C00559658 /* IColher.swift */,
+				1617FEE92898C29600559658 /* IColherAmostra.swift */,
+				1617FEEB2898C2AC00559658 /* IColherNaoColher.swift */,
+			);
+			path = Protocolos;
+			sourceTree = "<group>";
+		};
+		1617FEF52898C93600559658 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				1617FEED2898C2BC00559658 /* Seringa.swift */,
+				1617FEEF2898C2CD00559658 /* Virus.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1617FEC32898C1C300559658 /* RPGChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1617FED82898C1C600559658 /* Build configuration list for PBXNativeTarget "RPGChallenge" */;
+			buildPhases = (
+				1617FEC02898C1C300559658 /* Sources */,
+				1617FEC12898C1C300559658 /* Frameworks */,
+				1617FEC22898C1C300559658 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RPGChallenge;
+			productName = RPGChallenge;
+			productReference = 1617FEC42898C1C300559658 /* RPGChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1617FEBC2898C1C300559658 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1617FEC32898C1C300559658 = {
+						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
+					};
+				};
+			};
+			buildConfigurationList = 1617FEBF2898C1C300559658 /* Build configuration list for PBXProject "RPGChallenge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1617FEBB2898C1C300559658;
+			productRefGroup = 1617FEC52898C1C300559658 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1617FEC32898C1C300559658 /* RPGChallenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1617FEC22898C1C300559658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1617FEC02898C1C300559658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1617FEE22898C24800559658 /* FilhoHeroi.swift in Sources */,
+				1617FEEC2898C2AC00559658 /* IColherNaoColher.swift in Sources */,
+				1617FEF02898C2CD00559658 /* Virus.swift in Sources */,
+				1617FEE02898C23200559658 /* DoutorHeroi.swift in Sources */,
+				1617FEEE2898C2BC00559658 /* Seringa.swift in Sources */,
+				1617FEDC2898C1F100559658 /* main.swift in Sources */,
+				1617FEE42898C25500559658 /* PaiHeroi.swift in Sources */,
+				1617FEEA2898C29600559658 /* IColherAmostra.swift in Sources */,
+				1617FEDE2898C21600559658 /* Contexto.swift in Sources */,
+				1617FEE82898C27C00559658 /* IColher.swift in Sources */,
+				1617FEE62898C26D00559658 /* Heroi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1617FED62898C1C600559658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1617FED72898C1C600559658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1617FED92898C1C600559658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RPGChallenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeWithPedroHemmel.RPGChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1617FEDA2898C1C600559658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RPGChallenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeWithPedroHemmel.RPGChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1617FEBF2898C1C300559658 /* Build configuration list for PBXProject "RPGChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1617FED62898C1C600559658 /* Debug */,
+				1617FED72898C1C600559658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1617FED82898C1C600559658 /* Build configuration list for PBXNativeTarget "RPGChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1617FED92898C1C600559658 /* Debug */,
+				1617FEDA2898C1C600559658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1617FEBC2898C1C300559658 /* Project object */;
+}
