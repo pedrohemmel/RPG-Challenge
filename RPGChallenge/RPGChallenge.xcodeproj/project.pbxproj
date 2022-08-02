@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1617FF172898CB7800559658 /* Contexto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FF092898CB7800559658 /* Contexto.swift */; };
-		1617FF182898CB7800559658 /* IColherNaoColher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FF0B2898CB7800559658 /* IColherNaoColher.swift */; };
-		1617FF192898CB7800559658 /* IColher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FF0C2898CB7800559658 /* IColher.swift */; };
-		1617FF1A2898CB7800559658 /* IColherAmostra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FF0D2898CB7800559658 /* IColherAmostra.swift */; };
-		1617FF1B2898CB7800559658 /* Virus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FF0F2898CB7800559658 /* Virus.swift */; };
-		1617FF1C2898CB7800559658 /* Seringa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FF102898CB7800559658 /* Seringa.swift */; };
-		1617FF1D2898CB7800559658 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FF112898CB7800559658 /* main.swift */; };
-		1617FF1E2898CB7800559658 /* FilhoHeroi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FF132898CB7800559658 /* FilhoHeroi.swift */; };
-		1617FF1F2898CB7800559658 /* Heroi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FF142898CB7800559658 /* Heroi.swift */; };
-		1617FF202898CB7800559658 /* DoutorHeroi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FF152898CB7800559658 /* DoutorHeroi.swift */; };
-		1617FF212898CB7800559658 /* PaiHeroi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FF162898CB7800559658 /* PaiHeroi.swift */; };
+		1617FF302898CD1700559658 /* Contexto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FF222898CD1700559658 /* Contexto.swift */; };
+		1617FF312898CD1700559658 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FF232898CD1700559658 /* main.swift */; };
+		1617FF322898CD1700559658 /* IColherNaoColher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FF252898CD1700559658 /* IColherNaoColher.swift */; };
+		1617FF332898CD1700559658 /* IColher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FF262898CD1700559658 /* IColher.swift */; };
+		1617FF342898CD1700559658 /* IColherAmostra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FF272898CD1700559658 /* IColherAmostra.swift */; };
+		1617FF352898CD1700559658 /* Virus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FF292898CD1700559658 /* Virus.swift */; };
+		1617FF362898CD1700559658 /* Seringa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FF2A2898CD1700559658 /* Seringa.swift */; };
+		1617FF372898CD1700559658 /* FilhoHeroi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FF2C2898CD1700559658 /* FilhoHeroi.swift */; };
+		1617FF382898CD1700559658 /* Heroi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FF2D2898CD1700559658 /* Heroi.swift */; };
+		1617FF392898CD1700559658 /* DoutorHeroi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FF2E2898CD1700559658 /* DoutorHeroi.swift */; };
+		1617FF3A2898CD1700559658 /* PaiHeroi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617FF2F2898CD1700559658 /* PaiHeroi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,17 +34,17 @@
 
 /* Begin PBXFileReference section */
 		1617FEFF2898CB1F00559658 /* RPGChallenge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RPGChallenge; sourceTree = BUILT_PRODUCTS_DIR; };
-		1617FF092898CB7800559658 /* Contexto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Contexto.swift; path = ../../RPGChallengeTeste/RPGChallenge/Contexto.swift; sourceTree = "<group>"; };
-		1617FF0B2898CB7800559658 /* IColherNaoColher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IColherNaoColher.swift; sourceTree = "<group>"; };
-		1617FF0C2898CB7800559658 /* IColher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IColher.swift; sourceTree = "<group>"; };
-		1617FF0D2898CB7800559658 /* IColherAmostra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IColherAmostra.swift; sourceTree = "<group>"; };
-		1617FF0F2898CB7800559658 /* Virus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Virus.swift; sourceTree = "<group>"; };
-		1617FF102898CB7800559658 /* Seringa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seringa.swift; sourceTree = "<group>"; };
-		1617FF112898CB7800559658 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../RPGChallengeTeste/RPGChallenge/main.swift; sourceTree = "<group>"; };
-		1617FF132898CB7800559658 /* FilhoHeroi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilhoHeroi.swift; sourceTree = "<group>"; };
-		1617FF142898CB7800559658 /* Heroi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heroi.swift; sourceTree = "<group>"; };
-		1617FF152898CB7800559658 /* DoutorHeroi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoutorHeroi.swift; sourceTree = "<group>"; };
-		1617FF162898CB7800559658 /* PaiHeroi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaiHeroi.swift; sourceTree = "<group>"; };
+		1617FF222898CD1700559658 /* Contexto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contexto.swift; sourceTree = "<group>"; };
+		1617FF232898CD1700559658 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1617FF252898CD1700559658 /* IColherNaoColher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IColherNaoColher.swift; sourceTree = "<group>"; };
+		1617FF262898CD1700559658 /* IColher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IColher.swift; sourceTree = "<group>"; };
+		1617FF272898CD1700559658 /* IColherAmostra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IColherAmostra.swift; sourceTree = "<group>"; };
+		1617FF292898CD1700559658 /* Virus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Virus.swift; sourceTree = "<group>"; };
+		1617FF2A2898CD1700559658 /* Seringa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seringa.swift; sourceTree = "<group>"; };
+		1617FF2C2898CD1700559658 /* FilhoHeroi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilhoHeroi.swift; sourceTree = "<group>"; };
+		1617FF2D2898CD1700559658 /* Heroi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heroi.swift; sourceTree = "<group>"; };
+		1617FF2E2898CD1700559658 /* DoutorHeroi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoutorHeroi.swift; sourceTree = "<group>"; };
+		1617FF2F2898CD1700559658 /* PaiHeroi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaiHeroi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,46 +77,43 @@
 		1617FF012898CB1F00559658 /* RPGChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				1617FF112898CB7800559658 /* main.swift */,
-				1617FF092898CB7800559658 /* Contexto.swift */,
-				1617FF122898CB7800559658 /* Classes */,
-				1617FF0E2898CB7800559658 /* Structs */,
-				1617FF0A2898CB7800559658 /* Protocolos */,
+				1617FF232898CD1700559658 /* main.swift */,
+				1617FF222898CD1700559658 /* Contexto.swift */,
+				1617FF2B2898CD1700559658 /* Classes */,
+				1617FF242898CD1700559658 /* Protocolos */,
+				1617FF282898CD1700559658 /* Structs */,
 			);
 			path = RPGChallenge;
 			sourceTree = "<group>";
 		};
-		1617FF0A2898CB7800559658 /* Protocolos */ = {
+		1617FF242898CD1700559658 /* Protocolos */ = {
 			isa = PBXGroup;
 			children = (
-				1617FF0B2898CB7800559658 /* IColherNaoColher.swift */,
-				1617FF0C2898CB7800559658 /* IColher.swift */,
-				1617FF0D2898CB7800559658 /* IColherAmostra.swift */,
+				1617FF252898CD1700559658 /* IColherNaoColher.swift */,
+				1617FF262898CD1700559658 /* IColher.swift */,
+				1617FF272898CD1700559658 /* IColherAmostra.swift */,
 			);
-			name = Protocolos;
-			path = ../../RPGChallengeTeste/RPGChallenge/Protocolos;
+			path = Protocolos;
 			sourceTree = "<group>";
 		};
-		1617FF0E2898CB7800559658 /* Structs */ = {
+		1617FF282898CD1700559658 /* Structs */ = {
 			isa = PBXGroup;
 			children = (
-				1617FF0F2898CB7800559658 /* Virus.swift */,
-				1617FF102898CB7800559658 /* Seringa.swift */,
+				1617FF292898CD1700559658 /* Virus.swift */,
+				1617FF2A2898CD1700559658 /* Seringa.swift */,
 			);
-			name = Structs;
-			path = ../../RPGChallengeTeste/RPGChallenge/Structs;
+			path = Structs;
 			sourceTree = "<group>";
 		};
-		1617FF122898CB7800559658 /* Classes */ = {
+		1617FF2B2898CD1700559658 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1617FF132898CB7800559658 /* FilhoHeroi.swift */,
-				1617FF142898CB7800559658 /* Heroi.swift */,
-				1617FF152898CB7800559658 /* DoutorHeroi.swift */,
-				1617FF162898CB7800559658 /* PaiHeroi.swift */,
+				1617FF2C2898CD1700559658 /* FilhoHeroi.swift */,
+				1617FF2D2898CD1700559658 /* Heroi.swift */,
+				1617FF2E2898CD1700559658 /* DoutorHeroi.swift */,
+				1617FF2F2898CD1700559658 /* PaiHeroi.swift */,
 			);
-			name = Classes;
-			path = ../../RPGChallengeTeste/RPGChallenge/Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,17 +175,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1617FF1A2898CB7800559658 /* IColherAmostra.swift in Sources */,
-				1617FF1D2898CB7800559658 /* main.swift in Sources */,
-				1617FF202898CB7800559658 /* DoutorHeroi.swift in Sources */,
-				1617FF1F2898CB7800559658 /* Heroi.swift in Sources */,
-				1617FF182898CB7800559658 /* IColherNaoColher.swift in Sources */,
-				1617FF192898CB7800559658 /* IColher.swift in Sources */,
-				1617FF212898CB7800559658 /* PaiHeroi.swift in Sources */,
-				1617FF1E2898CB7800559658 /* FilhoHeroi.swift in Sources */,
-				1617FF1C2898CB7800559658 /* Seringa.swift in Sources */,
-				1617FF1B2898CB7800559658 /* Virus.swift in Sources */,
-				1617FF172898CB7800559658 /* Contexto.swift in Sources */,
+				1617FF342898CD1700559658 /* IColherAmostra.swift in Sources */,
+				1617FF312898CD1700559658 /* main.swift in Sources */,
+				1617FF392898CD1700559658 /* DoutorHeroi.swift in Sources */,
+				1617FF382898CD1700559658 /* Heroi.swift in Sources */,
+				1617FF322898CD1700559658 /* IColherNaoColher.swift in Sources */,
+				1617FF352898CD1700559658 /* Virus.swift in Sources */,
+				1617FF3A2898CD1700559658 /* PaiHeroi.swift in Sources */,
+				1617FF372898CD1700559658 /* FilhoHeroi.swift in Sources */,
+				1617FF332898CD1700559658 /* IColher.swift in Sources */,
+				1617FF302898CD1700559658 /* Contexto.swift in Sources */,
+				1617FF362898CD1700559658 /* Seringa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
