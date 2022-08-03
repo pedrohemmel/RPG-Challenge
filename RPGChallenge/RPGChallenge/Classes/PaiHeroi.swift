@@ -11,7 +11,7 @@ public class PaiHeroi: Heroi {
     //Variável que transforma a classe em uma do tipo singleton
     static let pedroHenrique = PaiHeroi(seringaHeroi: [
         Seringa("Raiva"),
-        Seringa("Bacteriófago"),
+        Seringa("Dengue"),
         Seringa("Papilomavírus"),
         Seringa("Rotavírus"),
         Seringa("Herpes Simples")

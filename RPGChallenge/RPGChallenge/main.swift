@@ -15,6 +15,8 @@ var contextoEscolhido = [String]()
 var virusDJogo = [Virus]()
 var contadorVirusAparecidos = 0
 var seringasAtuais = [Seringa]()
+var contContexto = 0
+var interrompeHistoria = false
 
 
 //Setando variâvel constante das opqoes do jogo
@@ -23,10 +25,34 @@ let opcoesDJogo = ["Começar uma partida", "Ver tutorial", "Sair do jogo"]
 
 //FUNÇÕES AOUI//
 
+
+//Reinicializando as variaveis globais
+func limpaVariaveis() {
+    controleDJogo = 0
+    auxContextoEscolhido = [0, 0, 0]
+    contextoEscolhido = [String]()
+    virusDJogo = [Virus]()
+    contadorVirusAparecidos = 0
+    seringasAtuais = [Seringa]()
+    contContexto = 0
+    interrompeHistoria = false
+    
+    PaiHeroi.pedroHenrique.estaInfectado = false
+    FilhoHeroi.izaias.estaInfectado = false
+    
+    PaiHeroi.pedroHenrique.reiniciarComportamento()
+    FilhoHeroi.izaias.reiniciarComportamento()
+}
+
+func imprimirLinha() {
+    print("\n\n_________________________________________\n\n")
+}
+
 func rodarTutorial() {
+    imprimirLinha()
     for txtTutorial in Contexto().tutorial {
         print("\(txtTutorial)")
-        sleep(1)
+        sleep(3)
     }
 }
 
@@ -108,16 +134,13 @@ func escolherVirusDJogo() {
 //Função que verifica se o contexto ja foi escolhido através do index do auxContexto
 func verificacaoEscolherTexto(escolhaContexto: Int) -> Int {
     var escolha = escolhaContexto
-    var cont = 0
     while(escolha == auxContextoEscolhido[0] || escolha == auxContextoEscolhido[1] || escolha == auxContextoEscolhido[2]) {
         
-        //O PROBLEMA ATUAL ESTÁ AQUI//
-        if(cont < 3) {
-            escolha = Int.random(in: 1...3)
-        } else {
-            escolha = auxContextoEscolhido[0]
+        if auxContextoEscolhido[0] != 0 && auxContextoEscolhido[1] != 0 && auxContextoEscolhido[2] != 0 {
             break
         }
+        
+        escolha = Int.random(in: 1...3)
     }
     return escolha
 }
@@ -178,18 +201,22 @@ func identificaSeringaHeroi(heroi: Heroi, seringa: Seringa) -> Bool {
 
 func colheAmostra(indcSeringa: Int) {
     if(identificaSeringaHeroi(heroi: PaiHeroi.pedroHenrique, seringa: seringasAtuais[indcSeringa])) {
-        print("\n\(PaiHeroi.pedroHenrique.colherAmostra())")
+        print("\n\n\(PaiHeroi.pedroHenrique.nome): \(PaiHeroi.pedroHenrique.colherAmostra())\n\n")
     } else {
-        print("\n\(FilhoHeroi.izaias.colherAmostra())")
+        print("\n\n\(FilhoHeroi.izaias.nome): \(FilhoHeroi.izaias.colherAmostra())\n\n")
     }
 }
 
 func contraiVirus(indcSeringa: Int) {
+    print("\nAI! Seringa errada!")
+    
     if(identificaSeringaHeroi(heroi: PaiHeroi.pedroHenrique, seringa: seringasAtuais[indcSeringa])) {
+        
         PaiHeroi.pedroHenrique.contrairVirus()
         PaiHeroi.pedroHenrique.estaInfectado = true
         
-        print("\n\(PaiHeroi.pedroHenrique.colherAmostra())")
+        print("\nTrágico... Pedro Henrique acabou de ser infectado! A partir de agora conseguirá apenas andar")
+        print("\n\n'\(PaiHeroi.pedroHenrique.nome): \(PaiHeroi.pedroHenrique.colherAmostra())'\n\n")
         
         //Adicionando as seringas do pai para o filho
         for seringaPai in PaiHeroi.pedroHenrique.seringaHeroi {
@@ -200,7 +227,8 @@ func contraiVirus(indcSeringa: Int) {
         FilhoHeroi.izaias.contrairVirus()
         FilhoHeroi.izaias.estaInfectado = true
         
-        print("\n\(FilhoHeroi.izaias.colherAmostra())")
+        print("\nTrágico... Izaias acabou de ser infectado! A partir de agora conseguirá apenas andar")
+        print("\n\n'\(FilhoHeroi.izaias.nome): \(FilhoHeroi.izaias.colherAmostra())'\n\n")
         
         //Adicionando as seringas do filho para o pai
         for seringaFilho in FilhoHeroi.izaias.seringaHeroi {
@@ -208,13 +236,14 @@ func contraiVirus(indcSeringa: Int) {
             FilhoHeroi.izaias.seringaHeroi.removeFirst()
         }
     }
+    if(PaiHeroi.pedroHenrique.estaInfectado == true && FilhoHeroi.izaias.estaInfectado == true) {
+        interrompeHistoria = true
+    }
+    
 }
 
 
 func verificaSeringaEVirus(indcVirus: Int, indcSeringa: Int) {
-    if(PaiHeroi.pedroHenrique.estaInfectado) {
-        
-    }
     if(virusDJogo[indcVirus].seringaCompativel.nome == seringasAtuais[indcSeringa].nome) {
         colheAmostra(indcSeringa: indcSeringa)
     } else {
@@ -231,31 +260,58 @@ func iniciaColetaAmostra(indcVirus: Int) {
     
     print("\nQual seringa seria necessária nessa situação?")
     
-    let seringaEscolhida = imprimeOpcoesSeringa()
+    var seringaEscolhida = imprimeOpcoesSeringa()
+    
+    while(seringaEscolhida == 0) {
+        seringaEscolhida = imprimeOpcoesSeringa()
+    }
     
     verificaSeringaEVirus(indcVirus: indcVirus, indcSeringa: seringaEscolhida-1)
-    
 }
 
 //Função que apresenta a base da história
 func mostrarHistoriaBase() {
     for txtBase in Contexto().historiaBase {
         print(txtBase)
-        sleep(1)
+        sleep(3)
     }
 }
 
 func rodarHistoriaEscolhida(historia: [String]) -> [String] {
+    
+    imprimirLinha()
+    
     for txtHistoria in historia {
         if(txtHistoria != "ativa") {
             print(txtHistoria)
-            sleep(1)
+            sleep(3)
         } else {
+            
             iniciaColetaAmostra(indcVirus: contadorVirusAparecidos)
             contadorVirusAparecidos = contadorVirusAparecidos + 1
         }
     }
     return escolherContexto()
+}
+
+func imprimirFinal() {
+    imprimirLinha()
+    for contexto in Contexto().verificaESetaFinal() {
+        if contexto != "final" {
+            print("\(contexto)")
+            sleep(3)
+        }
+    }
+}
+
+func rodarFinal() {
+    if(PaiHeroi.pedroHenrique.estaInfectado == false && FilhoHeroi.izaias.estaInfectado == false) {
+        imprimirFinal()
+    } else if((PaiHeroi.pedroHenrique.estaInfectado == true && FilhoHeroi.izaias.estaInfectado == false) || (PaiHeroi.pedroHenrique.estaInfectado == false && FilhoHeroi.izaias.estaInfectado == true)) {
+        imprimirFinal()
+    } else {
+        imprimirFinal()
+    }
 }
 
 func comecarJogo() {
@@ -267,9 +323,19 @@ func comecarJogo() {
     
     mostrarHistoriaBase()
     
-    contextoEscolhido = rodarHistoriaEscolhida(historia: contextoEscolhido)
-    contextoEscolhido = rodarHistoriaEscolhida(historia: contextoEscolhido)
-    contextoEscolhido = rodarHistoriaEscolhida(historia: contextoEscolhido)
+    while(contContexto < 3) {
+        if(!interrompeHistoria) {
+            contextoEscolhido = rodarHistoriaEscolhida(historia: contextoEscolhido)
+        } else {
+            break
+        }
+        contContexto = contContexto + 1
+    }
+    
+    rodarFinal()
+    
+    limpaVariaveis()
+    
 }
 
 func estruturaCondicionalDJogo(escolha: String) -> Int {

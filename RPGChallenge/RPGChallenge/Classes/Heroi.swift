@@ -20,6 +20,10 @@ public class Heroi {
         self.comportamentoColherAmostra = IColherNaoColher()
     }
     
+    public func reiniciarComportamento() {
+        self.comportamentoColherAmostra = IColherAmostra()
+    }
+    
     public func colherAmostra() -> String {
         return comportamentoColherAmostra.colherAmostra()
     }
