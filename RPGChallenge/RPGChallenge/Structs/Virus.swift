@@ -10,9 +10,11 @@ import Foundation
 public struct Virus {
     public var nome: String
     public var seringaCompativel: Seringa
+    public var caracteristicaVirus: String
     
-    init(nome: String, seringaCompativel: Seringa) {
+    init(nome: String, seringaCompativel: Seringa, caracteristicaVirus: String) {
         self.nome = nome
         self.seringaCompativel = seringaCompativel
+        self.caracteristicaVirus = caracteristicaVirus
     }
 }

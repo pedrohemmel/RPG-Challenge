@@ -80,8 +80,8 @@
 				1617FF232898CD1700559658 /* main.swift */,
 				1617FF222898CD1700559658 /* Contexto.swift */,
 				1617FF2B2898CD1700559658 /* Classes */,
-				1617FF242898CD1700559658 /* Protocolos */,
 				1617FF282898CD1700559658 /* Structs */,
+				1617FF242898CD1700559658 /* Protocolos */,
 			);
 			path = RPGChallenge;
 			sourceTree = "<group>";

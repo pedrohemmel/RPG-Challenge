@@ -20,6 +20,10 @@ public class Heroi {
         self.comportamentoColherAmostra = IColherNaoColher()
     }
     
+    public func colherAmostra() -> String {
+        return comportamentoColherAmostra.colherAmostra()
+    }
+    
     //Inicializando variáveis do objeto
     public init(_ seringaHeroi: [Seringa], _ nome: String) {
         self.nome = nome
